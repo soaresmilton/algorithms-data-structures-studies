@@ -77,7 +77,7 @@ console.log(proposicaoOU(true, true));
 Lógica de programação é a técnica de encadear pensamentos para atingir determinado objetivo. Estes pensamentos, podem ser descritos como uma seqüência de instruções, que devem ser seguidas para se cumprir uma determinada tarefa. Seqüência Lógica são passos executados até atingir um objetivo ou solução de um problema. ⇒ Algoritmos
 
 ## LISTA DE EXERCÍCIOS
-Confira a Lista de exercícios **para iniciantes**  [aqui](logica-programacao/exercicios-logica/EX-FACEIS.MD)
-Lista de nível intermediário - **em breve**
-Lista de nível avançado - **em breve**
+- Confira a Lista de exercícios **para iniciantes**  [aqui](logica-programacao/exercicios-logica)
+- Lista de nível intermediário - **em breve**
+- Lista de nível avançado - **em breve**
 
