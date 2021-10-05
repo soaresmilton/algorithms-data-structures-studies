@@ -97,6 +97,53 @@ const exercicio15 = (arr) => {
   })
 }
 
+const exercicio16 = (ano) => {
+  if (ano % 100 == 0 || ano % 4 != 0) return false
+
+  if (ano % 100 == 0 && ano % 400 == 0 || ano % 4 == 0) return true
+}
+
+const exercicio17 = (arr) => {
+  return arr.reduce((a, b) => a + b);
+}
+
+const exercicio18 = (produtos) => {
+  return produtos.reduce((acumulador, valorAtual) => acumulador + valorAtual.preco, 0);
+}
+
+const exercicio19 = (arr) => {
+  let numeroDeValores = arr.length;
+  let somaDosValores = arr.reduce((acumulador, valorAtual) => acumulador + valorAtual);
+  return somaDosValores / numeroDeValores;
+}
+
+const exercicio20 = (baseDoTriangulo, alturaDoTriangulo) => {
+  const areaDoTriangulo = (baseDoTriangulo * alturaDoTriangulo) / 2;
+  return areaDoTriangulo;
+}
+
+const exercicio21 = (arr) => {
+  return Math.min(...arr);
+}
+
+const exercicio22 = (numero) => {
+  if (numero > 10 || numero < 1) return "Por favor, Insira um número de 1 a 10";
+  
+  let numeroAleatorio = (Math.random() * 10).toFixed();
+  return numero == numeroAleatorio ? `Parabéns! O número sorteado foi ${numeroAleatorio}` : `Que pena! O Número sorteado foi ${numeroAleatorio}`;
+}
+
+
+const exercicio23 = (str) => {
+  const numeroDePalavras = str.split(' ');
+  return numeroDePalavras.length;
+}
+
+// const ecercicio24 = () => {
+  
+// }
+
+
 //  console.log(exercicio1("Mundo"));
 // console.log(exercicio2(70));
 // console.log(exercicio3(150, 40.5));
@@ -115,7 +162,6 @@ const exercicio15 = (arr) => {
 //   idade: 25,
 //   altura: 1.70
 // }
-
 // console.log(exercicio12(obj, 'idade'));
 // console.log(Object.is(exercicio12(obj, 'altura'), obj));
 
@@ -127,3 +173,26 @@ const exercicio15 = (arr) => {
 // }));
 
 // console.log(exercicio15([1, 2, 3, 4]));
+// console.log(exercicio16(2100));
+// console.log(exercicio17([10, 50, 10]));
+
+// const produtos = [
+//   {
+//     nome: 'Produto 1', categoria: 'Categoria 1', preco: 50.00
+//   },
+
+//   {
+//     nome: 'Produto 2', categoria: 'Categoria 2', preco: 25.00
+//   },
+
+//   {
+//     nome: 'Produto 3', categoria: 'Categoria 3', preco: 35.00
+//   }
+// ]
+
+// console.log(exercicio18(produtos));
+// console.log(exercicio19([1, 2, 3, 4, 5]));
+// console.log(exercicio20(7, 9))
+// console.log(exercicio21([-10, 2, 3, -400]))
+// console.log(exercicio22(5));
+// console.log(exercicio23('Milton Ant'))
