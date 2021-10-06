@@ -242,12 +242,53 @@ const exercicio28 = (numeros, quantidade) => {
   return numeros.filter(numero => {
     const quantidadeDeDigitos = String(numero).length;
 
-    return quantidadeDeDigitos === quantidade
+    return quantidadeDeDigitos === quantidade;
   })
 }
 
 // console.log(exercicio28([1, 2, 3, 40, 25, 1, 300], 2));
 
+function exercicio29(numeros) {
+  const maxNumber = () => Math.max(...numeros);
+  const indexOfMaxNumber = numeros.findIndex(number => number == maxNumber());
+
+  numeros.splice(indexOfMaxNumber, 1);
+  return maxNumber();
+}
+
 // const exercicio29 = (numeros) => {
-  
+//   const maxNumber = Math.max(...numeros);
+//   const newArr = numeros.filter(number => number != maxNumber);
+//   return Math.max(...newArr);
 // }
+
+// const numeros = [10, 2, 3, 18, 55, 25, 4, 5, 6, 110, 1500, 122, 23, -500000, 2561];
+// console.log(exercicio29(numeros));
+
+const notasDosEstudantes = {
+  Milton: [10, 8, 7, 6.5],
+  Sara: [8.5, 9.0, 10, 9.5],
+  Joao: [7.5, 8.5, 10, 10],
+  Maria: [3.5, 5.5, 8, 4.5]
+}
+
+const soma = arr => arr.reduce((a, b) => a + b, 0);
+const media = arr => soma(arr) / arr.length;
+
+function exercicio30(notasDosEstudantes) {
+  const mediasDosEstudantes = Object.entries(notasDosEstudantes);
+  const objetoDosEstudantesComAsMedias = mediasDosEstudantes.map(estudante => {
+    const key = 0, value = 1
+
+    return { nome: estudante[key], media: media(estudante[value]) }
+  })
+
+  const constOrdenarArrayDeEstudantesComMedias = objetoDosEstudantesComAsMedias.sort((estudanteA, estudanteB) => {
+    return estudanteB.media - estudanteA.media
+  })
+
+  const estudanteComMelhorNota = constOrdenarArrayDeEstudantesComMedias[0]
+
+  return estudanteComMelhorNota;
+}
+console.log(exercicio30(notasDosEstudantes));
