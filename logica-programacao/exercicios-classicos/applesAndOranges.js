@@ -8,7 +8,7 @@ const countApplesAndOranges = (s, t, a, b, apples, oranges) => {
     }
     
     for (let orange of oranges) {
-        let d =  + b;
+        let d = orange + b;
         if(d >= s && d <= t) countOranges += 1;
     }
     
