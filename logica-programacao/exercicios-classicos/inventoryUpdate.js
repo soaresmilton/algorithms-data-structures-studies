@@ -44,4 +44,4 @@ var newInv = [
   [7, "Toothpaste"],
 ];
 
-updateInventory(curInv, newInv)
+updateInventory(curInv, newInv);
