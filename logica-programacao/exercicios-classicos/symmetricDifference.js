@@ -5,13 +5,13 @@ function symOfTwo(arr1, arr2) {
 
   for (const element of arr1) {
     if (!arr2.includes(element) && !result.includes(element)) {
-      result.push(element)
+      result.push(element);
     };
   }
 
   for (const element of arr2) {
     if (!arr1.includes(element) && !result.includes(element)) {
-      result.push(element)
+      result.push(element);
     };
   }
 
