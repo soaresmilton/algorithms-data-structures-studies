@@ -16,4 +16,4 @@ const sumOfTwo = (a, b, v) => {
   return false
 }
 
-console.log(sumOfTwo([2, 3, 4], [-15, 6, 3], 7))
+console.log(sumOfTwo([2, 3, 4], [-15, 6, 3], 7));
