@@ -50,4 +50,4 @@ const permAlone = (str) => {
   return count;
 }
 
-console.log(permAlone('aab'))
+permAlone('aab')
