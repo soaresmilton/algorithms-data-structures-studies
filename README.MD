@@ -78,6 +78,7 @@ Lógica de programação é a técnica de encadear pensamentos para atingir dete
 
 ## LISTA DE EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO
 - Confira a Lista de exercícios **para iniciantes**  [aqui](logica-programacao/exercicios-logica)
+- Lista de Exercícios Clássicos **todos os níveis de dificuldade** -  [Confira Aqui](logica-programacao/exercicios-classicos)
 - Lista de nível intermediário - **em breve**
 - Lista de nível avançado - **em breve**
 
