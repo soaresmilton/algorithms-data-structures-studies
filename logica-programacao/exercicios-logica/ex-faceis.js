@@ -1,5 +1,9 @@
 const exercicio1 = nome => `Olá, ${nome}!`;
-//  console.log(exercicio1("Mundo"));
+
+var sara = "Sara"
+var milton = "Milton"
+ console.log(exercicio1(sara));
+ console.log(exercicio1(milton));
 
 const exercicio2 = idade => {
   let idadeEmDias = idade * 365;
@@ -291,4 +295,4 @@ function exercicio30(notasDosEstudantes) {
 
   return estudanteComMelhorNota;
 }
-console.log(exercicio30(notasDosEstudantes));
+// console.log(exercicio30(notasDosEstudantes));
