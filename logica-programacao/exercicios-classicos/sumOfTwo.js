@@ -2,16 +2,16 @@
 
 // FORCE BRUTE SOLUTION
 
-function sumOfTwo(a, b, v) {
-  for (let i = 0; i < a.length; i++) {
-    let neededValue = v - a[i];
-    for (let j = 0; j < b.length; j++) {
-      if (b[j] === neededValue) return true;
-     }
-  }
+// function sumOfTwo(a, b, v) {
+//   for (let i = 0; i < a.length; i++) {
+//     let neededValue = v - a[i];
+//     for (let j = 0; j < b.length; j++) {
+//       if (b[j] === neededValue) return true;
+//      }
+//   }
 
-  return false
-}
+//   return false
+// }
 
 // OPTIMIZED SOLUTION
 
@@ -22,7 +22,7 @@ const sumOfTwo = (arr1, arr2, goal) => {
     differences.add(complement);
   }
 
-  console.log(differences);
+  // console.log(differences);
 
   for (let j = 0; j < arr2.length; j++) {
     if (differences.has(arr2[j])) return true
@@ -30,4 +30,4 @@ const sumOfTwo = (arr1, arr2, goal) => {
   return false
 }
 
-console.log(sumOfTwo([2, 3, 4, 18], [-15, 6, 3], 7));
+console.log(sumOfTwo([2, 3, 4, 18], [-15, 6, 3, 17], 7));
