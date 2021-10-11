@@ -4,8 +4,9 @@ function gradingStudents(grades) {
     if (grades[i] < 38 || grades[i] % 5 <= 2) finalGrade.push(grades[i]);
 
     if (grades[i] >= 38 && grades[i] % 5 > 2) {
-      let newGrade = 5 - (grades[i] % 5)
-      finalGrade.push(grades[i] + newGrade);
+      let difference = 5 - (grades[i] % 5);
+      let nextMultipleOfFive = grades[i] + difference;
+      finalGrade.push(nextMultipleOfFive);
     }
   }
 
