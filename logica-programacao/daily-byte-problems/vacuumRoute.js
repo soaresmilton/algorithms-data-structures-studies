@@ -4,7 +4,6 @@ function vacuumRoute(robotMoves) {
     up = 0,
     down = 0;
 
-
   for (let i = 0; i < robotMoves.length; i++) {
     if (robotMoves[i] === 'L') {
       left++;
@@ -38,11 +37,8 @@ function vacuumRoute(robotMoves) {
   console.log(`up: ${up}`);
   console.log(`down: ${down}`);
   return (right === 0 && left === 0 && down === 0 && up === 0) ?  true : false;
-
-
-
 }
 
 
-const robotMoves = 'RUULLDRD'
+const robotMoves = 'RUULLDRD';
 console.log(vacuumRoute(robotMoves));
