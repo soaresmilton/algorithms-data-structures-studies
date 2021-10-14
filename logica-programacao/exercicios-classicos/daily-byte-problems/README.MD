@@ -90,4 +90,4 @@ Ex: Given the following arrays...
 >["spot", "spotty", "spotted"], return "spot"
 
 
-[See my approach for this problem here](addBinary.js)
+[See my approach for this problem here](longestCommomPrefix.js)
