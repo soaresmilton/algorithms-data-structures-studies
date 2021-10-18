@@ -106,3 +106,15 @@ Ex: Given the following...
 >[4, 2, 6, 5, 2], k = 4, return true (2 + 2)
 [See my approach for this problem here](twoSum.js)
 
+## Day 8 - Jewels and Stones
+
+This question is asked by Amazon. Given a string representing your stones and another string representing a list of jewels, return the number of stones that you have that are also jewels.
+
+Ex: Given the following jewels and stones...
+
+
+>jewels = "abc", stones = "ac", return 2
+>
+>jewels = "Af", stones = "AaaddfFf", return 3
+>
+>jewels = "AYOPD", stones = "ayopd", return 0
