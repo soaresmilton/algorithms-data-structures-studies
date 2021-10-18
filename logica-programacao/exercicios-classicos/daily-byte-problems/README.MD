@@ -121,3 +121,18 @@ Ex: Given the following jewels and stones...
 >jewels = "AYOPD", stones = "ayopd", return 0
 
 [See my approach for this problem here](jewelsStones.js)
+
+### Day 9 - Valid Anagram
+This question is asked by Facebook. Given two strings s and t return whether or not s is an anagram of t.
+Note: An anagram is a word formed by reordering the letters of another word.
+
+Ex: Given the following strings...
+
+
+>s = "cat", t = "tac", return true
+>
+>s = "listen", t = "silent", return true
+>
+>s = "program", t = "function", return false
+
+[See my approach for this problem here](validAnagram.js)
