@@ -104,6 +104,7 @@ Ex: Given the following...
 >[3, 9, 13, 7], k = 8, return false
 >
 >[4, 2, 6, 5, 2], k = 4, return true (2 + 2)
+
 [See my approach for this problem here](twoSum.js)
 
 ## Day 8 - Jewels and Stones
@@ -118,3 +119,5 @@ Ex: Given the following jewels and stones...
 >jewels = "Af", stones = "AaaddfFf", return 3
 >
 >jewels = "AYOPD", stones = "ayopd", return 0
+
+[See my approach for this problem here](jewelsStones.js)
