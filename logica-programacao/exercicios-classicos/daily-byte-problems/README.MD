@@ -123,6 +123,7 @@ Ex: Given the following jewels and stones...
 [See my approach for this problem here](jewelsStones.js)
 
 ### Day 9 - Valid Anagram
+
 This question is asked by Facebook. Given two strings s and t return whether or not s is an anagram of t.
 Note: An anagram is a word formed by reordering the letters of another word.
 
