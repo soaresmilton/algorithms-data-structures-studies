@@ -18,4 +18,4 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [See this problem here](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)
 
 
-[Grading Students - Resolution](divisibleSumPairs.js)
+[Divisible Sum Pairs - Resolution](divisibleSumPairs.js)
