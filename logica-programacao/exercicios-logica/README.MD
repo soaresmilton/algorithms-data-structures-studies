@@ -2,6 +2,9 @@
 # LÓGICA DE PROGRAMAÇÃO
 ## EXERCÍCIOS FÁCEIS DE LÓGICA DE PROGRAMAÇÃO
 
+Essa é uma lista com exercícios para treinar lógica de programação e conceitos básicos em algorítmos e estrutura de dados. 
+A lista contempla 30 exercícios, com nível de dificuldade iniciante.
+A lista de exercícios foram retiradas do curso [Desenvolvimento Web Moderno - COD3R](https://www.cod3r.com.br/courses/web-moderno)
 ### EX.1
 
 > Crie uma função que retorna a string "Olá, " concatenada com um argumento text (a ser passado para a função) e com ponto de exclamação "!" no final.

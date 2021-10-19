@@ -1,8 +1,11 @@
 # Algorithms and Data Strucutre
 
-This repository is about algorithms and Data Structure studies.
+Esse repositório tem como objetivo armazenar meu progresso nos estudos de Lógica de programação, Algoritmos e Estrutura de Dados.
 
-Here I will share everything I have been studying.
+Aqui, irei concentrar todos os tópicos que tenho estudado, incluindo partes teóricas, links para referências, resolução de exercícios, entre outros aspectos que irei desenvolvendo conforme minha evolução nos estudos.
+
+De forma geral, a intenção é criar um local seguro e robusto de informações, organizadas a respeito do tema e propiciar um ambiente de estudos para qualquer um que se interesse.
+
 
 ## Algorithms
 
@@ -81,5 +84,6 @@ Lógica de programação é a técnica de encadear pensamentos para atingir dete
 - Lista de Exercícios Clássicos **todos os níveis de dificuldade** -  [Confira Aqui](logica-programacao/exercicios-classicos)
 - Lista de nível intermediário - **em breve**
 - Lista de nível avançado - **em breve**
-
-
+---
+# Estrutura de dados
+O que são estrutura de dados?
