@@ -159,4 +159,4 @@ Ex: Given the following strings...
 >
 >"developer", return 0
 
-[See my approach for this problem here]()
+[See my approach for this problem here](firstUniqueCharacter.js)
