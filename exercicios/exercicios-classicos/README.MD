@@ -6,4 +6,8 @@ O objetivo principal desse repositório é armazenar exercícios encontrados em:
 
 Dentre os exercícios, temos níveis de dificuldade variados, abordando exercícios fáceis, médios e difíceis. 
 
-Confira as pastas separadas em cada um dos 
+## Como esta organizado?
+
+Essa seção do repositório está separando cada um dos sites mencionados anteriormente em pastas diferentes, de modo a manter organizado esses exercícios especificamente para cada site.
+Pode haver duplicidade nos exercícios, visto que cada um será retirado propriamente de seu respectivo local.
+De forma geral, acesse a pasta do site que você tenha interesse e procure pelo exercício.
