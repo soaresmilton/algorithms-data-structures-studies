@@ -1,6 +1,7 @@
 # Daily Byte Problems
 Exercícios recebidos diariamente via e-mail pela newsletter do pessoal [Daily Byte](https://thedailybyte.dev/))
 
+---
 ### Day 1 - Reverse Strings
 This question is asked by Google. Given a string, reverse all of its characters and return the resulting string.
 Ex: Given the following strings...
@@ -12,7 +13,7 @@ Ex: Given the following strings...
 
 [See my approach for this problem here](reverse-string.js)
 
-
+---
 ### Day 2 - Valid Palindrome
 This question is asked by Facebook. Given a string, return whether or not it forms a palindrome ignoring case and non-alphabetical characters.
 Note: a palindrome is a sequence of characters that reads the same forwards and backwards.
@@ -29,7 +30,7 @@ Ex: Given the following strings...
 
 [See my approach for this problem here](validPalindrome.js)
 
-
+---
 ### Day 3 - Vacuum Cleaner Route
 This question is asked by Amazon. Given a string representing the sequence of moves a robot vacuum makes, return whether or not it will return to its original position. The string will only contain L, R, U, and D characters, representing left, right, up, and down respectively.
 
@@ -43,6 +44,7 @@ Ex: Given the following strings...
 
 [See my approach for this problem here](vacuumRoute.js)
 
+---
 ### Day 4 - Correct Capitalization
 
 This question is asked by Google. Given a string, return whether or not it uses capitalization correctly. A string correctly uses capitalization if all letters are capitalized, no letters are capitalized, or only the first letter is capitalized.
@@ -59,6 +61,7 @@ Ex: Given the following strings...
 
 [See my approach for this problem here](correctCapitalization.js)
 
+---
 ### Day 5 - Add Binary
 
 This question is asked by Apple. Given two binary strings (strings containing only 1s and 0s) return their sum (also as a binary string).
@@ -74,6 +77,7 @@ Ex: Given the following binary strings...
 
 [See my approach for this problem here](addBinary.js)
 
+ ---
 ### Day 6 - Longest Commom Prefix
 
 This question is asked by Microsoft. Given an array of strings, return the longest common prefix that is shared amongst all strings.
@@ -92,6 +96,7 @@ Ex: Given the following arrays...
 
 [See my approach for this problem here](longestCommomPrefix.js)
 
+ ---
 ### Day 7 - Two Sum
 
 This question is asked by Google. Given an array of integers, return whether or not two numbers sum to a given target, k.
@@ -107,6 +112,7 @@ Ex: Given the following...
 
 [See my approach for this problem here](twoSum.js)
 
+ ---
 ## Day 8 - Jewels and Stones
 
 This question is asked by Amazon. Given a string representing your stones and another string representing a list of jewels, return the number of stones that you have that are also jewels.
@@ -122,6 +128,7 @@ Ex: Given the following jewels and stones...
 
 [See my approach for this problem here](jewelsStones.js)
 
+ ---
 ### Day 9 - Valid Anagram
 
 This question is asked by Facebook. Given two strings s and t return whether or not s is an anagram of t.
@@ -137,3 +144,19 @@ Ex: Given the following strings...
 >s = "program", t = "function", return false
 
 [See my approach for this problem here](validAnagram.js)
+
+ ---
+
+### Day 10 - First Unique Character
+
+This question is asked by Microsoft. Given a string, return the index of its first unique character. If a unique character does not exist, return -1.
+
+Ex: Given the following strings...
+
+>"abcabd", return 2
+>
+>"thedailybyte", return 1
+>
+>"developer", return 0
+
+[See my approach for this problem here]()
