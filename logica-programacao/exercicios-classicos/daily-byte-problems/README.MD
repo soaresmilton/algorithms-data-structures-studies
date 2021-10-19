@@ -1,5 +1,5 @@
 # Daily Byte Problems
-
+Exercícios recebidos diariamente via e-mail pela newsletter do pessoal [Daily Byte](https://thedailybyte.dev/))
 
 ### Day 1 - Reverse Strings
 This question is asked by Google. Given a string, reverse all of its characters and return the resulting string.
