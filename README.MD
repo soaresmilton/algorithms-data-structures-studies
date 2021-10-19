@@ -11,7 +11,9 @@ De forma geral, a intenção é criar um local seguro e robusto de informações
 
 ### O que é algoritmo?
 
-Algoritmos é uma sequência finita de ações executáveis para resolver um determinado problema.
+Em matemática e ciência da computação, um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema. Segundo Dasgupta, Papadimitriou e Vazirani; "Algoritmos são procedimentos precisos, não ambíguos, padronizados, eficientes e corretos.".[3]
+
+As suas características são: finitas, o algoritmo deve eventualmente resolver o problema; bem definidas: os passos devem ser definidos de modo a serem entendidos; efetivas, deve sempre resolver o que tem para solucionar, antecipando falhas. [Wikipedia](https://pt.wikipedia.org/wiki/Algoritmo)
 
 Exemplo:
 *ALGORITMO PARA MONTAR UM SANDUÍCHE COM REQUEIJÃO E PRESUNTO*
@@ -61,7 +63,10 @@ Exemplo:
 25. Desligue a torneira
 26. Com uma toalha seque a boca e a escova de dente
 27. Guarde a escova de dentes no suporte para escova de dentes
+## Lógica de programação
+Lógica de programação é a técnica de encadear pensamentos para atingir determinado objetivo. Estes pensamentos, podem ser descritos como uma sequência de instruções, que devem ser seguidas para se cumprir uma determinada tarefa. Sequência Lógica são passos executados até atingir um objetivo ou solução de um problema. ⇒ Algoritmos.
 
+De forma complementar aos algoritmos, existe a lógica de programação, que é o conceito prático e técnico aplicado para montar os Algoritmos específicos para um computador executar uma determinada função que resolverá determinado problema.
 ## Lógica proposicional
 
 ```jsx
@@ -75,10 +80,6 @@ console.log(proposicaoNao(true));
 console.log(propisicaoE(true, false));
 console.log(proposicaoOU(true, true));
 ```
-
-## Lógica de programação
-Lógica de programação é a técnica de encadear pensamentos para atingir determinado objetivo. Estes pensamentos, podem ser descritos como uma sequência de instruções, que devem ser seguidas para se cumprir uma determinada tarefa. Sequência Lógica são passos executados até atingir um objetivo ou solução de um problema. ⇒ Algoritmos
-
 ## LISTA DE EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO
 - Confira a Lista de exercícios **para iniciantes**  [aqui](logica-programacao/exercicios-logica)
 - Lista de Exercícios Clássicos **todos os níveis de dificuldade** -  [Confira Aqui](logica-programacao/exercicios-classicos)
