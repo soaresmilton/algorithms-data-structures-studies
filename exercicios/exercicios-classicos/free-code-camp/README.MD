@@ -20,6 +20,7 @@ Create a function that takes two or more arrays and returns an array of their sy
 Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
 [Resolution 1](inventoryUpdate.js)
+
 [Resolution 2](inventoryUpdate2.js)
 
 ---
@@ -29,7 +30,7 @@ Return the number of total permutations of the provided string that don't have r
 
 For example, aab should return 2 because it has 6 total permutations (aab, aab, aba, aba, baa, baa), but only 2 of them (aba and aba) don't have the same letter (in this case a) repeating.
 
-[Resolução](noRepeatsPlease.js)
+[Resolution](noRepeatsPlease.js)
 
 ---
 
