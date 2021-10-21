@@ -3,15 +3,13 @@ function intersectionOfNumbers(nums1, nums2) {
 
   if (nums1.length > nums2.length) {
     for (let i = 0; i < nums1.length; i++) {
-      if (nums1.includes(nums2[i]))  intersectionSet.add(nums2[i]);
+      if (nums1.includes(nums2[i])) intersectionSet.add(nums2[i]);
     }
   } else {
     for (let i = 0; i < nums2.length; i++) {
-      if (nums1.includes(nums2[i]))  intersectionSet.add(nums2[i]);
+      if (nums1.includes(nums2[i])) intersectionSet.add(nums2[i]);
     }
   }
-
-
   return [...intersectionSet];
 }
 
