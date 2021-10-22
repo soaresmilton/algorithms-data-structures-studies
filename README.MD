@@ -80,11 +80,16 @@ console.log(proposicaoNao(true));
 console.log(propisicaoE(true, false));
 console.log(proposicaoOU(true, true));
 ```
-## LISTA DE EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO
-- Confira a Lista de exercícios **para iniciantes**  [aqui](logica-programacao/exercicios-logica)
-- Lista de Exercícios Clássicos **todos os níveis de dificuldade** -  [Confira Aqui](logica-programacao/exercicios-classicos)
-- Lista de nível intermediário - **em breve**
-- Lista de nível avançado - **em breve**
+
+
 ---
 # Estrutura de dados
 O que são estrutura de dados?
+
+
+---
+# Complexidade de tempo e espaço O(n)
+
+---
+## LISTA DE EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO
+- Confira as resoluções de alguns exercícios que venho desenvolvendo [clicando aqui](exercicios/ex-faceis)
