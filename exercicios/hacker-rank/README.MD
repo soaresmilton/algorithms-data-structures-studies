@@ -19,3 +19,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 
 
 [Divisible Sum Pairs - Resolution](divisibleSumPairs.js)
+
+
+### Ex. 5 - Bill Division
+[Check this out here](https://www.hackerrank.com/challenges/bon-appetit/problem)
+
+[Take a look in my solution for this problem](billDivision.js)
