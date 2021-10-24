@@ -1,7 +1,12 @@
 function bonAppetit(bill, k, b) {
   let annaBills = bill.filter(value => value !== bill[k]);
-  let annaCharge = (annaBills.reduce((a, b) => a + b)) / 2;
-  if(b - annaCharge === 0) return console.log('Bon Appetit');
+  let annaCharge = (annaBills.reduce((a, b) => a + b, 0)) / 2;
+  if(b - annaCharge === 0)  console.log('Bon Appetit');
+
+  const sumTotal = bill.reduce((a, b) => a + b)
+  console.log(sumTotal);
+  const result = (sum - bill[k]) / 2;
+  console.log(result);
 
   return console.log(b - annaCharge);
 }
