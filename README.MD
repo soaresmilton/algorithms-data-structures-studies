@@ -6,6 +6,7 @@ Aqui, irei concentrar todos os tópicos que tenho estudado, incluindo partes te�
 
 De forma geral, a intenção é criar um local seguro e robusto de informações, organizadas a respeito do tema e propiciar um ambiente de estudos para qualquer um que se interesse.
 
+Confira esse [repositorio](https://github.com/trekhleb/javascript-algorithms/blob/master/README.pt-BR.md) para um estudo mais detalhado a respeito de **Algoritmos e Estrutura de Dados**.
 
 ## Algorithms
 
@@ -92,4 +93,4 @@ O que são estrutura de dados?
 
 ---
 ## LISTA DE EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO
-- Confira as resoluções de alguns exercícios que venho desenvolvendo [clicando aqui](exercicios/ex-faceis)
+- Confira as resoluções de alguns exercícios que venho desenvolvendo [clicando aqui](exercicios)
