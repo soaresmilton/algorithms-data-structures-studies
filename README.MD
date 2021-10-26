@@ -85,8 +85,57 @@ console.log(proposicaoOU(true, true));
 
 ---
 # Estrutura de dados
-O que são estrutura de dados?
+**O que são estrutura de dados?**
 
+Estrutura de Dados é a forma como nós organizamos os dados. 
+
+Existem diversas estruturas de dados utilizadas na programação, as quatro principais são: 
+**Listas** e suas variações (filas, pilhas, deques, listas circulares…), **Árvores** e suas variações (binárias, binárias de busca, não binárias…), **Grafos**, **Tabelas Hash**, que são largamente utilizadas na implementação de aplicações. Exemplificando:
+
+- **Listas**: Processos executados em um sistema operacional (fila); chamadas de funções num interpretador de código (pilha); cartas em um jogo de baralho (variação de deque).
+- **Árvores**: Aplicativos de pesquisa com entrada constante de dados (Árvores binárias); algoritmos de compactação de dados.
+- **Grafos**: Redes sociais; algoritmos de sugestão de conexões; algoritmos de cálculo de relacionamentos (professores, disciplinas); aplicações voltadas para distribuição de malha elétrica.
+- **Tabelas Hash**: Algoritmos de movimentação de personagens em jogos; bancos de dados; implementação de compiladores
+
+## Anotações importantes
+
+Propriedades fundamentais das estruturas de dados:
+
+- Armazenar dados
+- Devolver dados com comandos ⇒ Buscar dados
+
+### Arrays
+
+Array ou vetor, é uma estrutura de dado clássica em qualquer linguagem de programação. O array, basicamente, é uma lista de dados, cujo valores são referenciados por um índice que inicia em 0 e termina em n, em que ***n = comprimento do array - 1***.
+
+- Zero indexed:
+    
+    ```jsx
+    let array = [1, 2, 3]
+    console.log(array[0]) // => retorna 1, ou seja, nosso primeiro elemento do array
+    console.log(array.length) // => retorna 3, ou seja, o tamanho do nosso array
+    console.log(array.indexOf(3)) // => retorna 2, ou seja, o índice do nosso último item do array
+    ```
+    
+- São mutáveis. Ou seja, podemos mudar seus valores arbitrariamente. Inclusive para outro tipo de dados que quisermos. No exemplo abaixo mudamos o valor do índice 1 do tipo *Number* para uma *String*.
+    - Os métodos *push()* e *unshift()* possuem métodos contrários, ou seja, que removem os itens do final e do início de um array, eles são, respectivamente: *pop()* e *shift().* Única diferença entre esses dois últimos, com os outros dois primeiros, é que o pop e o shift, não permitem remover mais de um item simultaneamente.
+    
+    ```jsx
+    array[1] = "Não será mais o número 2"
+    console.log(array) // retorna [1, "Não será mais o número 2", 3]
+    array.push(2); // Adiciona um item no final do Array
+    console.log(array) // retorna [1, "Não será mais o número 2", 3, 2]
+    array.unshift(0); // Adiciona um item no início do Array
+    console.log(array) //retorna [0, 1, "Não será mais o número 2", 3, 2]
+    ```
+    
+-
+
+
+
+**REFERÊNCIAS:**
+- [freeCodeCamp - Basic of Data Structures with JS](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
+- [Blog Cod3r](https://blog.cod3r.com.br/estruturas-de-dados/)
 
 ---
 # Complexidade de tempo e espaço O(n)
