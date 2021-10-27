@@ -129,7 +129,53 @@ Array ou vetor, é uma estrutura de dado clássica em qualquer linguagem de prog
     console.log(array) //retorna [0, 1, "Não será mais o número 2", 3, 2]
     ```
     
--
+- Outra forma para realizar modificação de arrays é através do método splice(). Esse método recebe 2 parâmetros obrigatórios, e outros opcionais. `arr.splice(indiceDoElementoInicial, quantidadeDeElementosARemover, opcional1, opcional2, [...)`
+    
+    ```jsx
+    let arr1 = [1, 2, 3, 4, 5];
+    arr1.splice(1, 2);
+    console.log(arr1); // RETORNA um novo array: [ 1, 4, 5 ]
+    
+    ```
+    
+    **Usando splice para substituir elementos:**
+    
+    ```jsx
+    let arr1 = [1, 2, 3, 4, 5];
+    arr1.splice(1, 2, "dois", "três");
+    console.log(arr1); // RETORNA um novo array: [ 1, "dois", "tres", 4, 5]
+    ```
+    
+- Outra função que podemos utilizar para manipular arrays é o *slice()*. De forma geral, o slice **cria um novo array extraindo os elementos de um array existente**. A função *slice* recebe dois parâmetros: O primeiro é o índice do elemento que começaremos a extração e o segundo é o índice em que a extração será interrompida. 
+`array.slice(indiceDoElementoInicial, indiceDoElementoEmQueSeEncerraAExtracao)`
+**OBS:** No caso do segundo parâmetro do slice, o elemento do índice em que será interrompido a extração, **NÃO** será removido. 
+**OBS:** Ao contrário do splice(), *slice()* não modifica o array inicial. Ele cria uma cópia e extrai os elementos com base em seu índice no array principal.
+Vejamos na prática:
+    
+    ```jsx
+    let arr1 = [1, 2, 3, 4, 5];
+    console.log(arr1.slice(1, 3)); // RETORNA o array com as extrações: [ 2, 3 ]
+    console.log(arr1); // RETORNA o array inicial sem modificação: [ 1, 2, 3, 4, 5 ]
+    ```
+    
+- **Spread operator:** é uma forma de fazermos referência ou copiar arrays e objetos, criando novas instâncias desses elementos em uma nova variável. Dessa forma, podemos fazer tratativas nesses elementos, sem alterar seus valores iniciais. Para utilizar o spread operator, basta usar ... antes do nome do array que desejamos copiar. Vejamos na prática:
+    
+    ```jsx
+    const arr1 = [1, 2, 3, 4, 5];
+    let arr2 = [...arr1];
+    
+    console.log(arr2) // RETORNA uma cópia do arr1: [ 1, 2, 3, 4, 5 ]
+    ```
+    
+    Dessa forma, por exemplo, se quisermos aplicar o método *splice* nos elementos do arr1, porém, sem modificar seus valores, podemos usar o spread operator para criar uma nova instância do arr1 em uma nova variável, fazer as tratativas necessárias e ainda manter o arr1 inalterado.
+    
+    ```jsx
+    const arr1 = [1, 2, 3, 4, 5];
+    let arr2 = [...arr1];
+    arr2.splice(1, 2)
+    console.log(arr1); //RETORNA o arr1 inalterado: [ 1, 2, 3, 4, 5 ]
+    console.log(arr2); //RETORNA o novo array alterado: [ 1, 4, 5 ]
+    ```
 
 
 
