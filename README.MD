@@ -176,7 +176,31 @@ Vejamos na prática:
     console.log(arr1); //RETORNA o arr1 inalterado: [ 1, 2, 3, 4, 5 ]
     console.log(arr2); //RETORNA o novo array alterado: [ 1, 4, 5 ]
     ```
-
+- Como arrays são mutáveis e podem ser alterados a qualquer momento, não existe uma garantia de que o valor de determinado índice será o mesmo em qualquer momento da execução do código ou até mesmo se esse valor ainda existe. Para contornar esse problema, existe outra propriedade dos arrays chamada *indexOf()*. Essa propriedade identifica o índice de determinado valor do array e retorna o número desse índice. Caso o valor não seja encontrado no array, o *indexOf()* retorna o valor -1
+    
+    ```jsx
+    const arr1 = [1, 2, 3, 4, 5];
+    console.log(arr1.indexOf(2)); // RETORNA o número do índice do valor 2 => 1
+    console.log(arr1.indeOf("Não tem esse valor"))// RETORNA -1, pois não existe a string procurada no arr1
+    ```
+    
+- Existem diversas formas que podemos utilizar para manipular arrays no JavaScript. Dentre elas estão os conceitos de Looping, bem como funções nativas do JS que iteram sobre o array, tais como (map, forEach, every, reduce, filter,entre outras).
+    
+    Abaixo criamos uma função base que faz um loop a través de um array e filtra os elementos que são maiores que 10:
+    
+    ```jsx
+    function greaterThanTen(arr) {
+      let newArr = [];
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 10) {
+          newArr.push(arr[i]);
+        }
+      }
+      return newArr;
+    }
+    
+    greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
+    ```
 
 
 **REFERÊNCIAS:**
