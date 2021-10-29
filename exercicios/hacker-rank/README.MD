@@ -31,4 +31,11 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 ### Ex. 6 - Cats and a Mouse
 
 [Check this out](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)
+
 [Check my solution](catsAndMouse.js)
+
+### Ex. 7 - Jumping on the clouds
+
+[Check this problem here](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem)
+
+[Check my solution clicking here](jumpingClouds.js)
