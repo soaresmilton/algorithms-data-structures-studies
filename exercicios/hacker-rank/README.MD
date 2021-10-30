@@ -39,3 +39,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [Check this problem here](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem)
 
 [Check my solution clicking here](jumpingClouds.js)
+
+### Ex. 8 - Utopian Tree
+
+[Check this problem here]()
+
+[See my solution here]()
