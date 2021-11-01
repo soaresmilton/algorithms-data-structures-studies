@@ -42,6 +42,12 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 
 ### Ex. 8 - Utopian Tree
 
-[Check this problem here]()
+[Check this problem here](hackerrank.com/challenges/utopian-tree/problem?h_r=profile)
 
-[See my solution here]()
+[See my solution here](utopianTree.js)
+
+### Ex. 9 - Angry Professor
+
+[See this problem here](https://www.hackerrank.com/challenges/angry-professor/problem)
+
+[See my solution here](angryProfessor.js)
