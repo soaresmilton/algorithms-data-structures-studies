@@ -6,3 +6,8 @@ This repository is focused on resolution of exercises for Interviews from the Ha
 [See this problem here](https://www.hackerrank.com/challenges/one-week-preparation-kit-plus-minus/problem?h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-one)
 
 [My solution](plusMinus.js)
+
+## Ex. 2 - Min Max Sum
+[See this problem here](https://www.hackerrank.com/challenges/one-week-preparation-kit-mini-max-sum/problem?h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-one&h_r=next-challenge&h_v=zen)
+
+[My solution](minMax.js)
