@@ -199,8 +199,79 @@ Vejamos na prática:
       return newArr;
     }
     
-    greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
+    greaterThanTen([2, 12, 8, 14, 80, 0, 1]); //RETORNA novo array [ 12, 14, 80 ]
     ```
+
+    **Objects:**
+
+- Objetos são estrutura de dados que permite associarmos uma chave com um valor específico. Esse tipo de estrutura fornece muita flexibilidade na manutenção e manuseio de dados. Existem diversas formas de criar essas estruturas, bem como adicionar propriedades a elas. Veja, vamos criar um objeto pessoa, que possui algumas características. Em seguida, iremos adicionar propriedades extras nesse objeto, utilizado diferentes formas para isso:
+    
+    ```jsx
+    let pessoa = {
+    	nome: 'Milton',
+    	idade: 25,
+    	especialidade: 'Excel'
+    };
+    
+    pessoa.gostos = 'Jogos de RPG';
+    pessoa['local de nascimento'] = 'Itamogi';
+    const formacao = 'formação acadêmica';
+    pessoa[formacao] = 'Engenharia de Petróleo';
+    
+    console.log(pessoa);
+    
+    // RETORNA:
+    /*
+    {
+      nome: 'Milton',
+      idade: 25,
+      especialidade: 'Excel',
+      gostos: 'Jogos de RPG',
+      'local de nascimento': 'Itamogi',
+      'formação acadêmica': 'Engenharia de Petróleo'
+    } 
+    */
+    ```
+    
+- Se for necessário, podemos deletar propriedades de nossos objetos também. Para isso, a forma mais simples é mencionar o nome da propriedade que queremos deletar e usar o método *delete* para concluir o processo.
+
+```jsx
+let pessoa = {
+	nome: 'Milton',
+	idade: 25,
+	especialidade: 'Excel',
+	gostos: 'Jogos de RPG'
+};
+
+delete pessoa.gostos // Deleta a propriedade gostos do objeto pessoa
+```
+
+- Assim como podemos fazer iterações sobre os elementos dos arrays, podemos fazer iterações sobre as chaves dos objetos. Podemos utilizar o *for...in* statement para isso. Então, para entendermos melhor esse conceito, dado um objeto (*userObj*) com nomes de usuários, retorne o número de usuários que estão online, ou seja, que sua propriedade *online* seja igual a *true*
+
+```jsx
+let userObj = {
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+
+const countOnline = (usersObj) => {
+  let countOnlineUsers  = 0;
+  for(let user in usersObj) {
+    if(usersObj[user].online === true) countOnlineUsers  ++;
+  }
+
+  return countOnlineUsers;
+}
+```
+
+
 
 
 **REFERÊNCIAS:**
