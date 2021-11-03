@@ -24,3 +24,9 @@ This repository is focused on resolution of exercises for Interviews from the Ha
 
 
 [See my solution for this problem](lonelyInteger)
+
+
+## Ex. 5 - Diagonal Difference
+[See this problem here](https://www.hackerrank.com/challenges/diagonal-difference/problem)
+
+[My solution](diagonalDifference.js)
