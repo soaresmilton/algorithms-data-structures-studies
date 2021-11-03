@@ -17,3 +17,10 @@ This repository is focused on resolution of exercises for Interviews from the Ha
 [See this problem here]()
 
 [Check my solution](timeConversion.js)
+
+## Ex. 4 - Lonely Integer
+
+[See this problem here](https://www.hackerrank.com/challenges/one-week-preparation-kit-lonely-integer/problem?h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-two)
+
+
+[See my solution for this problem](lonelyInteger)
