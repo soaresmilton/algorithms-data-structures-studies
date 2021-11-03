@@ -51,3 +51,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [See this problem here](https://www.hackerrank.com/challenges/angry-professor/problem)
 
 [See my solution here](angryProfessor.js)
+
+### Ex. 10 - Beautiful Days At the Movies
+
+[Check this problem here](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
+
+[See my solution for this problem here](beautifulDaysMovies.js)
