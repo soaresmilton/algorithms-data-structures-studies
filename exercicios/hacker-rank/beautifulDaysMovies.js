@@ -5,7 +5,6 @@ function beautifulDays(i, j, k) {
   };
   let beautyDays = 0;
 
-
   for (n; n <= j; n++) {
    if(Math.abs(n - reversedNumber()) % k === 0) beautyDays++;
   }
