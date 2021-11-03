@@ -30,3 +30,9 @@ This repository is focused on resolution of exercises for Interviews from the Ha
 [See this problem here](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 
 [My solution](diagonalDifference.js)
+
+## Ex. 6 - Counting Sorte
+
+[See the problem](https://www.hackerrank.com/challenges/one-week-preparation-kit-countingsort1/problem?h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-two&h_r=next-challenge&h_v=zen)
+
+[My soultion](countingSort.js)
