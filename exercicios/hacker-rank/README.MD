@@ -57,3 +57,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [Check this problem here](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
 
 [See my solution for this problem here](beautifulDaysMovies.js)
+
+### Ex. 11 - Subarray Division
+
+[See this problem here](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
+
+[My solution](subarrayDivision.js)
