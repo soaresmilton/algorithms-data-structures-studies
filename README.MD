@@ -271,49 +271,6 @@ const countOnline = (usersObj) => {
 }
 ```
 
----
-## Regular Expressions (Regex)
-
-Expressões regulares ou **regex** são usadas nas linguagens de programação para encontrar determinadas partes de texto (string), através da criação de padrões específicos.
-
-Por exemplo, para encontrar a palavra "galho" na frase: "Cada macaco em seu galho", podemos usar a regex `/galho/` para fazer esse match. Aqui, uma observação importante é notar que não é necessário que as palavras as serem buscadas estejam entre aspas.
-
-Em JavaScript, podemos usar as expressões regulares de várias formas. Uma delas é utilizando o método *test()* própria expressão regular, recebendo como parâmetro a string a ser verificada. Esse método retorna um booleano - *true*  ou *false.*
-
-```jsx
-let testStr = "MiltonAntonioSoares";
-let testRegex = /Soares/;
-testRegex.test(testStr); // RETORNA true
-```
-
-Outra observação importante para as regex, é que elas são case sensitive. Portanto, fazendo buscas literais, com a do exemplo anterior, a depender da forma que o texto for procurado a regex poderá não entender o texto buscado, retornando um valor falso. Exemplo:
-
-```jsx
-let testStr = "MiltonAntonioSoares";
-let testRegex = /soares/;
-testRegex.test(testStr); // RETORNA false
-```
-
-Nas expressões regulares, podemos utilizar alguns operadores para construirmos expressões poderosas com maior nível de dinamismo nas buscas. Como exemplo operador OU, que verifica uma string, comparando um ou outro valor da expressão regular. O separador OU, é presentado por uma `|` e podemos passar quantos valores que quisermos para fazer a comparação. Exemplo:
-
-```jsx
-let petString = "James has a pet cat.";
-let petRegex = /dog|cat|bird|fish/; 
-let result = petRegex.test(petString);
-```
-
-Para conseguirmos construir regex mais poderosas, que captam letras maiúsculas e/ou minúsculas em uma mesma string, podemos utilizar uma flag específica para isso. Nesse caso, utilizaremos a flag `i` . Uma forma de utilizar essa flag, é passando ela no final da expressão: `/ignorecase/i` ⇒ essa expressão procura frases como **IGnoreCase** ou **IGNORECASE** ou **ignorecase**... Na prática:
-
-```jsx
-let myString = "MiltonAntonioSoares";
-let fccRegex = /miltonantonioSoares/i; 
-let result = fccRegex.test(myString);// RETORNA true
-```
-
-
-
-
-
 **REFERÊNCIAS:**
 - [freeCodeCamp - Basic of Data Structures with JS](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
 - [Blog Cod3r](https://blog.cod3r.com.br/estruturas-de-dados/)
