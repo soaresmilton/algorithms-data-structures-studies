@@ -214,3 +214,33 @@ Ex: given the following strings...
 >sentence1 = "copper coffee pot", sentence2 = "hot coffee pot", return ["copper", "hot"]
 
 [See my resolution clicking here](uncommonWords.js)
+
+### Day 14 - Merge Linked Lists
+
+This question is asked by Apple. Given two sorted linked lists, merge them together in ascending order and return a reference to the merged list
+
+Ex: Given the following lists...
+
+>list1 = 1->2->3, list2 = 4->5->6->null, return 1->2->3->4->5->6->null
+>
+>list1 = 1->3->5, list2 = 2->4->6->null, return 1->2->3->4->5->6->null
+>
+>list1 = 4->4->7, list2 = 1->5->6->null, return 1->4->4->5->6->7->null
+
+[See my resolution clicking here](mergeLinkedLists.js)
+
+
+### Day 15 - Compare Backspace
+
+This question is asked by Amazon. Given two strings `s` and `t`, which represents a sequence of keystrokes, where `#` denotes a backspace, return whether or not the sequences produce the same result.
+
+Ex: Given the following strings...
+
+
+>s = "ABC#", t = "CD##AB", return true
+>
+>s = "como#pur#ter", t = "computer", return true
+>
+>s = "cof#dim#ng", t = "code", return false
+
+[Check my solution here](compareKeystrokes.js)
