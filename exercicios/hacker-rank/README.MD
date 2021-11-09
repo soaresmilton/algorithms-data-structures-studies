@@ -63,3 +63,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [See this problem here](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
 
 [My solution](subarrayDivision.js)
+
+## Ex. 12 - Migratory Birds
+
+[Check the problem here](https://www.hackerrank.com/challenges/migratory-birds/problem)
+
+[My solution here](migratoryBirds.js)
