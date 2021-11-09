@@ -21,3 +21,10 @@ A seguir, está a lista de exercícios que estão sendo feitos como forma de tre
 [See this problem here](https://www.hackerrank.com/challenges/bash-tutorials---more-on-conditionals/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
 
 [Check my solution here](more_conditionals.sh)
+
+
+## Ex. 4 - Arithmetic Operations
+
+[See this problem here](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+
+[Check my solution here](arithmetic_operations.sh)
