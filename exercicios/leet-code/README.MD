@@ -12,3 +12,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 >Explanation: 342 + 465 = 807.
 
 [Click here to see my solution](add-two-numbers.js)
+
+## Ex. 2 - Two Sum
+
+[Check this problem here](https://leetcode.com/problems/two-sum/)
+
+[Check what I did here](twoSum.js)
