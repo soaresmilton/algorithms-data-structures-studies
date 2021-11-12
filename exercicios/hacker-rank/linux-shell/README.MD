@@ -28,3 +28,9 @@ A seguir, está a lista de exercícios que estão sendo feitos como forma de tre
 [See this problem here](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
 
 [Check my solution here](arithmetic_operations.sh)
+
+## Ex. 5 - Reading arrays
+
+[See this exercise here](https://www.hackerrank.com/challenges/bash-tutorials-read-in-an-array/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
+
+[See my solution here](reading_arrays.sh)
