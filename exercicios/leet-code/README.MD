@@ -18,3 +18,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 [Check this problem here](https://leetcode.com/problems/two-sum/)
 
 [Check what I did here](twoSum.js)
+
+### Ex. 3 - Longest Commom Prefix
+
+[See this problem here](https://leetcode.com/problems/longest-common-prefix/)
+
+[See my solution here](longest-common-prefix.js)

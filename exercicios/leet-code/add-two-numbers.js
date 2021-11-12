@@ -23,6 +23,6 @@ function addTwoNumbers(l1, l2) {
 
 }
 
-const l1 = [9,9,9,9,9,9,9];
-const l2 = [9,9,9,9];
+const l1 = [1, 2];
+const l2 = [1];
 console.log(addTwoNumbers(l1, l2));
