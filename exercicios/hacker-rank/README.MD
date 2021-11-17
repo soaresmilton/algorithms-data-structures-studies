@@ -69,3 +69,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [Check the problem here](https://www.hackerrank.com/challenges/migratory-birds/problem)
 
 [My solution here](migratoryBirds.js)
+
+## Ex. 13 - Sales By Match
+
+[Check the problem here](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true)
+
+[My solution here](salesByMatch.js)
