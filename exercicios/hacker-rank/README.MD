@@ -72,6 +72,13 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 
 ## Ex. 13 - Sales By Match
 
-[Check the problem here](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true)
+[Check the problem here](https://www.hackerrank.com/challenges/sock-merchant/problem)
 
 [My solution here](salesByMatch.js)
+
+
+## Ex. 14 - Minimum Distances
+
+[Check the problem here](https://www.hackerrank.com/challenges/minimum-distances/problem)
+
+[My solution here](minimumDistances.js)
