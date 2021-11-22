@@ -92,3 +92,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [Check the problem here](https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true)
 
 [My solution here](electronicsShop.js)
+
+## Ex. 15 - Viral Advertising
+
+[Check the problem here](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true)
+
+[My solution here](viralAdvertising.js)
