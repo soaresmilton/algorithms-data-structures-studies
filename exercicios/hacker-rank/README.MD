@@ -86,3 +86,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 <div align="center">
 <img src="github/code.gif" alt="Codando o exercício acima no site do Hacker Rank e passando pelos testes"  width="1200px">
 </div>
+
+## Ex. 15 - Electronics Shop
+
+[Check the problem here](https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true)
+
+[My solution here](electronicsShop.js)
