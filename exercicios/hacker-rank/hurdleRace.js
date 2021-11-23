@@ -13,3 +13,6 @@ const k = 4;
 const height = [1, 6, 3, 5, 2];
 
 console.log(hurdleRace(k, height));
+
+
+console.log(Math.max(0, Math.max(...height) - k))
