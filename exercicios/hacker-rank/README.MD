@@ -104,3 +104,9 @@ A seguir, encontra-se a lista de exercícios do site [Hacker Rank](https://www.h
 [Check the problem here](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)
 
 [My solution here](hurdleRace.js)
+
+## Ex. 18 - Drawing Book
+
+[Check the problem here](https://www.hackerrank.com/challenges/drawing-book/problem?isFullScreen=true)
+
+[My solution here](drawingBook.js)
